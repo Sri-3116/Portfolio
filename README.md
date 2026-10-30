@@ -1,21 +1,110 @@
-<<<<<<< HEAD
-# React + Vite
+# Personal Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive personal portfolio application developed using React.js and Tailwind CSS to showcase my technical expertise, professional experience, education, and development projects.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project provides a centralized platform to present my professional profile and development work. It features a modern dark charcoal and gold interface, reusable React components, responsive layouts, and smooth CSS animations to deliver a consistent user experience across devices.
 
-## React Compiler
+## Technical Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Technology | Implementation |
+|---|---|
+| React.js | Component-based UI development |
+| JavaScript (ES6+) | Application logic and interactivity |
+| HTML5 | Semantic page structure |
+| Tailwind CSS | Responsive styling and UI design |
+| CSS3 | Animations, transitions, and visual effects |
+| React Router | Client-side routing |
+| Vite | Development environment and build tool |
+| Git & GitHub | Source code management |
 
-## Expanding the ESLint configuration
+## Core Modules
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Portfolio
-Developed a responsive portfolio using React.js, JavaScript, and Tailwind CSS. Implemented component-based architecture, React Router for navigation, CSS keyframe animations, and responsive layouts. Integrated GitHub repositories, live project demos, and email links to showcase technical skills and development projects.
->>>>>>> 43553cdd2c001676ed341ffffa495a82b3e77ff2
+**Home**
+- Professional introduction and developer profile.
+- Overview of technical expertise.
+
+**About**
+- Technical skills and competencies.
+- Professional experience and educational background.
+
+**Projects**
+- Showcase of completed development projects.
+- Direct access to GitHub repositories and live demonstrations.
+
+**Contact**
+- Contact form with input validation.
+- Email, GitHub, and LinkedIn integration through external links.
+
+## Key Features
+
+- Reusable and modular React components.
+- Client-side navigation using React Router.
+- Responsive design for multiple screen sizes.
+- CSS-based animations and interactive transitions.
+- Consistent dark-themed user interface.
+- Project filtering and search functionality.
+
+## Project Setup
+
+### Prerequisites
+
+- Node.js
+- npm
+- Git
+
+### Installation
+
+Clone the repository:
+
+git clone https://github.com/Sri-3116/Portfolio.git
+
+
+Navigate to the project directory:
+
+cd Portfolio
+
+
+Install project dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm run dev
+
+
+Generate the production build:
+
+npm run build
+
+
+## Project Structure
+
+Portfolio/
+├── public/
+├── src/
+│   ├── Component/
+│   │   ├── Navbar.jsx
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Project.jsx
+│   │   └── Contact.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+
+## Developer
+
+**Jayasri Ravichandran**
+
+- GitHub: https://github.com/Sri-3116
+- LinkedIn: https://linkedin.com/in/jayasri-ravichandran-614067370
+- Email: jayasrivignesh27@gmail.com
